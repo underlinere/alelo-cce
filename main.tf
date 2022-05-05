@@ -25,7 +25,6 @@ resource "huaweicloud_cce_node_pool" "this" {
   key_pair   = var.node_pool_key_pair
   type       = "vm"
 
-
   root_volume {
     size       = 40
     volumetype = "SAS"
