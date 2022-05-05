@@ -7,7 +7,7 @@ data "huaweicloud_cce_addon_template" "ingress" {
 resource "huaweicloud_cce_addon" "metrics" {
   cluster_id    = huaweicloud_cce_cluster.this.id
   template_name = "metrics-server"
-  version       = "1.1.4"
+  version       = "1.2.1"
 }
 
 resource "huaweicloud_cce_addon" "ingress" {
