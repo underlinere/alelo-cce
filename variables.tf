@@ -1,5 +1,6 @@
 variable "name" {
   description = "Name of the cce cluster"
+  default     = ""
 }
 
 variable "flavor_id" {
